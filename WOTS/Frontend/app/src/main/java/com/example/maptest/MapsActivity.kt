@@ -45,43 +45,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_maps)
-//        Fuel.get("http://localhost:8080/test")
-//            .responseString{ request, response, result ->
-//                println("Did I get a response bacK?")
-//            }
-//        Fuel.post("http://localhost:8080/test")
-//            .jsonBody("{\"foo\" : \"bar\" }")
-//            .responseString{request, response, result ->
-//                println(result.get())
-//            }
 
-//        "http://localhost:8080/test".httpPost().response{
-//                request, response, result ->
-//            //response handling
-//        }
-//        val bodyJson =
-//            "\n  { \"title\" : \"foo\",\n    \"body\" : \"bar\",\n    \"id\" : \"1\"\n  }\n"
-//        val (request, response, result) = Fuel.post("http://localhost:8080/test")
-//            .jsonBody(bodyJson)
-//            .response()
-
-//        val json = JSONObject()
-//        json.put("body", "foo")
-//
-////synchronous call
-//        val (ignoredRequest, ignoredResponse, result) =
-//            Fuel.post("https://localhost:8080/test")
-//                .header("Authorization" to " token ")
-//                .body(json.toString())
-//                .responseString()
-//
-////do something with result
-//
-//        result.fold(success = {
-//            println("AYE")
-//        }, failure = {
-//            println("Why did it fail")
-//        })
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = supportFragmentManager
