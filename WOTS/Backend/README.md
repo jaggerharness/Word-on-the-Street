@@ -1,3 +1,3 @@
 ﻿# WOTS-backend
 
-These are the files used for the backend of our app. Mainly just sending and recieving user data from the database.
+These are the files used for the backend of our app. My partner Jagger Harness made these files.
